@@ -1,0 +1,119 @@
+body {
+    display: block;
+    color: #404040;
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #AAAAAA;
+}
+
+#PointlessnessLeague {
+    display: inline-block;
+    color: #FFFFFF;
+
+}
+
+thead {
+    background-color: #404040;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+#contentContainer {
+    width: 980px;
+    margin: 0 Auto;
+    background-color: #FFFFFF;
+}
+
+Main {
+    width: 780px;
+}
+
+article {
+    margin-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    color: #404040;
+    display: inline-block;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #AAAAAA;
+}
+
+article li {
+    width: 350px;
+}
+
+article div {
+    display: inline-block;
+    width: 400px;
+    vertical-align: top
+}
+
+header + footer {
+    padding: 8px
+}
+
+#HeraldLogo {
+    height: 60px
+}
+
+h3 {
+    background-color: #700b0b;
+    color: #FFFFFF;
+    font-size: 21px;
+    font: bold;
+}
+
+h2 + article {
+    font-size: 26px
+}
+
+h1 {
+    font: bold;
+    font-size: 50px;
+}
+
+header {
+    background-color: #700b0b;
+    color: #FFFFFF;
+    font: bold;
+}
+
+footer {
+    background-color: #404040;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+a:hover {
+    color: #AAAAAA;
+}
+
+li {
+
+    width: 40px;
+    padding-left: 14px;
+    border-left: 1px;
+    border-left-style: solid;
+}
+
+li:first-child {
+    border-left-style: none;
+}
+
+#OurEditor img {
+    height: 120px;
+    width: 95px;
+    display: inline-block;
+}
+
+#OurEditor div {
+    display: inline-block;
+    width: 800px;
+    vertical-align: top;
+}
