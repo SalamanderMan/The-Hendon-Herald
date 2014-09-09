@@ -9,8 +9,11 @@ body {
 #PointlessnessLeague {
     display: inline-block;
     color: #FFFFFF;
-
+    width: 120px;
+    margin-left: 8px;
 }
+
+
 
 thead {
     background-color: #404040;
@@ -25,18 +28,18 @@ thead {
 }
 
 Main {
-    width: 780px;
+    width: 1200px;
+    margin: auto;
+    background-color: #faebd7;
 }
 
 article {
     margin-top: 8px;
-    padding-bottom: 8px;
+    padding: 8px 0px;
     margin-bottom: 8px;
     color: #404040;
     display: inline-block;
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-top-color: #AAAAAA;
+    border-top: solid 1px #AAA;
 }
 
 article li {
@@ -46,8 +49,9 @@ article li {
 article div {
     display: inline-block;
     width: 400px;
-    vertical-align: top
-}
+    vertical-align: top;
+    padding-top: 0;
+    }
 
 header + footer {
     padding: 8px
@@ -57,15 +61,18 @@ header + footer {
     height: 60px
 }
 
-h3 {
+article h3 {
     background-color: #700b0b;
     color: #FFFFFF;
     font-size: 21px;
     font: bold;
-}
+    margin: 0;
+        }
 
-h2 + article {
-    font-size: 26px
+h2 {
+    font-size: 26px;
+    display: block;
+
 }
 
 h1 {
@@ -82,7 +89,15 @@ header {
 footer {
     background-color: #404040;
     color: #FFFFFF;
-}
+    }
+
+footer div {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    padding-top: 0;
+    width: 600px;
+    }
 
 a {
     text-decoration: none;
@@ -95,7 +110,6 @@ a:hover {
 }
 
 li {
-
     width: 40px;
     padding-left: 14px;
     border-left: 1px;
@@ -112,8 +126,25 @@ li:first-child {
     display: inline-block;
 }
 
-#OurEditor div {
-    display: inline-block;
-    width: 800px;
-    vertical-align: top;
+
+header img {
+    width: 48px;
+    height: 68px;
+}
+
+aside {
+    margin: 0 0 0 0;
+    width: 300px;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 890px;
+}
+
+aside table {
+    width: 300px;
+}
+
+aside h3 {
+    background-color: #700b0b;
+    color: #FFFFFF;
 }
